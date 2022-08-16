@@ -4,11 +4,11 @@ import pickle
 
 
 app = Flask(__name__)
-classifier_dt = pickle.load(open('mobiledt.pkl','rb'))
-classifier_knn = pickle.load(open('mobileknn.pkl','rb'))
-classifier_svm = pickle.load(open('mobilesvm.pkl','rb'))
-classifier_rf = pickle.load(open('mobilerf.pkl','rb'))
-classifier_NB = pickle.load(open('mobilenb.pkl','rb'))
+classifier_dt = pickle.load(open('dtmodel.pkl','rb'))
+classifier_knn = pickle.load(open('rfmodel.pkl','rb'))
+classifier_svm = pickle.load(open('nbmodel.pkl','rb'))
+classifier_rf = pickle.load(open('rfmodel.pkl','rb'))
+classifier_NB = pickle.load(open('dtmodel.pkl','rb'))
 
 @app.route('/predict1')
 def home():

@@ -1,2 +1,1 @@
-# ml-product
-Created by Pritesh Kumar and Dikshant Mali
+# music genre prediction

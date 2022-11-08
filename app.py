@@ -57,29 +57,29 @@ def predict():
 
     
     if prediction == [0]:
-      return render_template('index.html', prediction_text='Mobile belongs to 0 group', extra_text =" as per Prediction by " + Model)
+      return render_template('index.html', prediction_text='Music belongs to 0 group', extra_text =" as per Prediction by " + Model)
     
     elif prediction ==[1]:
-      return render_template('index.html', prediction_text='Mobile belongs to 1 group', extra_text ="as per Prediction by " + Model)
+      return render_template('index.html', prediction_text='Music belongs to 1 group', extra_text ="as per Prediction by " + Model)
 
     elif prediction ==[2]:
-      return render_template('index.html', prediction_text='Mobile belongs to 2nd group', extra_text ="as per Prediction by " + Model)
+      return render_template('index.html', prediction_text='Music belongs to 2nd group', extra_text ="as per Prediction by " + Model)
     elif prediction ==[3]:
-      return render_template('index.html', prediction_text='Mobile belongs to 3rd group', extra_text ="as per Prediction by " + Model)
+      return render_template('index.html', prediction_text='Music belongs to 3rd group', extra_text ="as per Prediction by " + Model)
     elif prediction ==[4]:
-      return render_template('index.html', prediction_text='Mobile belongs to 4 group', extra_text ="as per Prediction by " + Model)
+      return render_template('index.html', prediction_text='Music belongs to 4 group', extra_text ="as per Prediction by " + Model)
      elif prediction ==[5]:
-      return render_template('index.html', prediction_text='Mobile belongs to 5 group', extra_text ="as per Prediction by " + Model)
+      return render_template('index.html', prediction_text='Music belongs to 5 group', extra_text ="as per Prediction by " + Model)
     elif prediction ==[6]:
-      return render_template('index.html', prediction_text='Mobile belongs to 6 group', extra_text ="as per Prediction by " + Model)
+      return render_template('index.html', prediction_text='Music belongs to 6 group', extra_text ="as per Prediction by " + Model)
     elif prediction ==[7]:
-      return render_template('index.html', prediction_text='Mobile belongs to 7 group', extra_text ="as per Prediction by " + Model)
+      return render_template('index.html', prediction_text='Music belongs to 7 group', extra_text ="as per Prediction by " + Model)
     elif prediction ==[8]:
-      return render_template('index.html', prediction_text='Mobile belongs to 8 group', extra_text ="as per Prediction by " + Model)
+      return render_template('index.html', prediction_text='Music belongs to 8 group', extra_text ="as per Prediction by " + Model)
     elif prediction ==[9]:
-      return render_template('index.html', prediction_text='Mobile belongs to 9 group', extra_text ="as per Prediction by " + Model)
+      return render_template('index.html', prediction_text='Music belongs to 9 group', extra_text ="as per Prediction by " + Model)
     else:
-      return render_template('index.html', prediction_text='Mobile belongs to 10 group', extra_text ="as per Prediction by " + Model)
+      return render_template('index.html', prediction_text='Music belongs to 10 group', extra_text ="as per Prediction by " + Model)
 
 #---------------------------------------------------------
 
